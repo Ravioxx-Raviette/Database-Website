@@ -1,0 +1,150 @@
+/* Reset styling */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main container for content */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.register-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading styling */
+.register-heading {
+    color: #2c3e50;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Label styling */
+.input-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Boxed styling for the input fields */
+.input-box {
+    background-color: #fafafa;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Styling for input fields */
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+}
+
+/* Aligning form elements */
+.form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+/* Input hover and focus styling */
+.input-field:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+.input-field:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+    outline: none;
+}
+
+/* Submit button styling */
+.submit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 12px 25px;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit button hover effect */
+.submit-button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Error message styling */
+.error-message {
+    color: #c0392b;
+    background-color: #fdecea;
+    border: 1px solid #e74c3c;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    color: #666;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #2980b9;
+}
